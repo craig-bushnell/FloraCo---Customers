@@ -931,11 +931,42 @@
       </div>
       <div class="field-group">
         <div class="field-label">Preferred Day of Service</div>
-        <input class="field-input" type="text" name="day_of_service" placeholder="e.g. Monday, Tuesday…">
+        <select class="field-input" name="day_of_service" required>
+          <option value="">Select day...</option>
+          <option value="Monday">Monday</option>
+          <option value="Tuesday">Tuesday</option>
+          <option value="Wednesday">Wednesday</option>
+          <option value="Thursday">Thursday</option>
+          <option value="Friday">Friday</option>
+        </select>
       </div>
       <div class="field-group">
         <div class="field-label">Preferred Carrier</div>
-        <input class="field-input" type="text" name="carrier" placeholder="e.g. FedEx, UPS, Truck…">
+        <select class="field-input" name="carrier" required>
+          <option value="">Select carrier...</option>
+          <option value="ANTHONY'S">ANTHONY'S</option>
+          <option value="APM">APM</option>
+          <option value="ARMELLINI">ARMELLINI</option>
+          <option value="Armellini Air Express">Armellini Air Express</option>
+          <option value="Champion/CBC">Champion/CBC</option>
+          <option value="ELITE">ELITE</option>
+          <option value="FLORIDA BEAUTY">FLORIDA BEAUTY</option>
+          <option value="Floral Trade Distributors">Floral Trade Distributors</option>
+          <option value="FRESCA">FRESCA</option>
+          <option value="G & G CARGO">G & G CARGO</option>
+          <option value="Gems">Gems</option>
+          <option value="GOLDEN LINE">GOLDEN LINE</option>
+          <option value="KM HANDLING">KM HANDLING</option>
+          <option value="LEE SIGLER">LEE SIGLER</option>
+          <option value="PICK UP">PICK UP</option>
+          <option value="PRIME">PRIME</option>
+          <option value="Purple Cow">Purple Cow</option>
+          <option value="Queen Flowers">Queen Flowers</option>
+          <option value="Skylease">Skylease</option>
+          <option value="STAR VAN">STAR VAN</option>
+          <option value="WAYNE CARR">WAYNE CARR</option>
+          <option value="7000 Logistics">7000 Logistics</option>
+        </select>
       </div>
     </div>
 
@@ -992,7 +1023,7 @@
             </td>
             <td class="spec-cell">325g · 60cm</td>
             <td class="spec-cell">QB · 14 bun.</td>
-            <td class="price-cell">$5.65</td>
+            <td class="price-cell">$5.65 FOB</td>
             <td class="qty-cell"><input class="qty-input" type="number" name="white_qb" min="0" placeholder="0"></td>
           </tr>
           <tr>
@@ -1004,7 +1035,7 @@
             </td>
             <td class="spec-cell">325g · 60cm</td>
             <td class="spec-cell">QB · 14 bun.</td>
-            <td class="price-cell">$5.45</td>
+            <td class="price-cell">$5.45 FOB</td>
             <td class="qty-cell"><input class="qty-input" type="number" name="pink_qb" min="0" placeholder="0"></td>
           </tr>
           <tr>
@@ -1016,7 +1047,7 @@
             </td>
             <td class="spec-cell">325g · 60cm</td>
             <td class="spec-cell">QB · 14 bun.</td>
-            <td class="price-cell">$5.45</td>
+            <td class="price-cell">$5.45 FOB</td>
             <td class="qty-cell"><input class="qty-input" type="number" name="light_pink_qb" min="0" placeholder="0"></td>
           </tr>
           <tr>
@@ -1028,7 +1059,7 @@
             </td>
             <td class="spec-cell">325g · 60cm</td>
             <td class="spec-cell">QB · 14 bun.</td>
-            <td class="price-cell">$5.45</td>
+            <td class="price-cell">$5.45 FOB</td>
             <td class="qty-cell"><input class="qty-input" type="number" name="purple_qb" min="0" placeholder="0"></td>
           </tr>
           <tr>
@@ -1040,7 +1071,7 @@
             </td>
             <td class="spec-cell">325g · 60cm</td>
             <td class="spec-cell">QB · 14 bun.</td>
-            <td class="price-cell">$5.45</td>
+            <td class="price-cell">$5.45 FOB</td>
             <td class="qty-cell"><input class="qty-input" type="number" name="assorted_qb" min="0" placeholder="0"></td>
           </tr>
 
