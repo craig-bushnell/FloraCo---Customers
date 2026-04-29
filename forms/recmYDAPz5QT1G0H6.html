@@ -900,11 +900,11 @@
   <input type="hidden" name="customer_id" value="recmYDAPz5QT1G0H6">
   <input type="hidden" name="_subject" value="FloraCo 2026 Standing Order">
   <input type="hidden" name="_next" value="about:blank">
-  <input type="hidden" name="white_price_per_bunch" value="5.65">
-  <input type="hidden" name="pink_price_per_bunch" value="5.45">
-  <input type="hidden" name="light_pink_price_per_bunch" value="5.45">
-  <input type="hidden" name="purple_price_per_bunch" value="5.45">
-  <input type="hidden" name="assorted_price_per_bunch" value="5.45">
+  <input type="hidden" name="white_price_per_bunch" value="5.85">
+  <input type="hidden" name="pink_price_per_bunch" value="5.65">
+  <input type="hidden" name="light_pink_price_per_bunch" value="5.65">
+  <input type="hidden" name="purple_price_per_bunch" value="5.65">
+  <input type="hidden" name="assorted_price_per_bunch" value="5.65">
   <input type="hidden" name="season_start_date" value="2026-05-08">
   <input type="hidden" name="season_end_date" value="2026-11-13">
   <div class="body">
@@ -1025,7 +1025,7 @@
             </td>
             <td class="spec-cell">325g · 60cm</td>
             <td class="spec-cell">QB · 14 bun.</td>
-            <td class="price-cell">$5.65 FOB</td>
+            <td class="price-cell">$5.85 FOB</td>
             <td class="qty-cell"><input class="qty-input" type="number" name="white_qb" min="0" placeholder="0"></td>
           </tr>
           <tr>
@@ -1037,7 +1037,7 @@
             </td>
             <td class="spec-cell">325g · 60cm</td>
             <td class="spec-cell">QB · 14 bun.</td>
-            <td class="price-cell">$5.45 FOB</td>
+            <td class="price-cell">$5.65 FOB</td>
             <td class="qty-cell"><input class="qty-input" type="number" name="pink_qb" min="0" placeholder="0"></td>
           </tr>
           <tr>
@@ -1049,7 +1049,7 @@
             </td>
             <td class="spec-cell">325g · 60cm</td>
             <td class="spec-cell">QB · 14 bun.</td>
-            <td class="price-cell">$5.45 FOB</td>
+            <td class="price-cell">$5.65 FOB</td>
             <td class="qty-cell"><input class="qty-input" type="number" name="light_pink_qb" min="0" placeholder="0"></td>
           </tr>
           <tr>
@@ -1061,7 +1061,7 @@
             </td>
             <td class="spec-cell">325g · 60cm</td>
             <td class="spec-cell">QB · 14 bun.</td>
-            <td class="price-cell">$5.45 FOB</td>
+            <td class="price-cell">$5.65 FOB</td>
             <td class="qty-cell"><input class="qty-input" type="number" name="purple_qb" min="0" placeholder="0"></td>
           </tr>
           <tr>
@@ -1073,7 +1073,7 @@
             </td>
             <td class="spec-cell">325g · 60cm</td>
             <td class="spec-cell">QB · 14 bun.</td>
-            <td class="price-cell">$5.45 FOB</td>
+            <td class="price-cell">$5.65 FOB</td>
             <td class="qty-cell"><input class="qty-input" type="number" name="assorted_qb" min="0" placeholder="0"></td>
           </tr>
 
@@ -1218,7 +1218,7 @@
         if (resp.ok) {
           document.getElementById('successOverlay').classList.add('show');
           // Fire tracking pixel on submit (backup open signal)
-          new Image().src = 'https://739b700e6edddbc0a059a49b65c3fd0d.m.pipedream.net&event=submit';
+          new Image().src = 'https://739b700e6edddbc0a059a49b65c3fd0d.m.pipedream.net?event=submit&customer=recmYDAPz5QT1G0H6';
         } else {
           btn.textContent = 'Error — please reply via email instead';
           btn.style.background = '#c0392b';
@@ -1233,6 +1233,6 @@
 </script>
 
 <!-- TRACKING PIXEL - replace URL before sending -->
-<img src="https://739b700e6edddbc0a059a49b65c3fd0d.m.pipedream.net&event=open&customer=recmYDAPz5QT1G0H6" width="1" height="1" style="display:none;" alt="">
+<img src="https://739b700e6edddbc0a059a49b65c3fd0d.m.pipedream.net?event=open&customer=recmYDAPz5QT1G0H6" width="1" height="1" style="display:none;" alt="">
 </body>
 </html>
